@@ -60,7 +60,7 @@ Make sure you have the following installed on your system:
 ### **Installation Steps**
 1. Clone the repository:
    ```sh
-   git clone https://github.com/anastasiiakuntsova/PaylocityProject.git
+   git clone git@github.com:anastasiiakuntsova/PaylocityProject.git
    cd PaylocityProject
    ```
 2. Install dependencies:
