@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "partitionKey": { "type": "string" },
+    "sortKey": { "type": "string", "format": "uuid" },
+    "username": { "type": "string" },
+    "id": { "type": "string", "format": "uuid" },
+    "firstName": { "type": "string" },
+    "lastName": { "type": "string" },
+    "dependants": { "type": "integer", "minimum": 0 },
+    "expiration": { "type": "string", "format": "date-time" },
+    "salary": { "type": "integer" },
+    "gross": { "type": "integer" },
+    "benefitsCost": { "type": "number" },
+    "net": { "type": "number" }
+  },
+  "required": ["partitionKey", "sortKey", "username", "id", "firstName", "lastName", "dependants", "expiration", "salary", "gross", "benefitsCost", "net"]
+}

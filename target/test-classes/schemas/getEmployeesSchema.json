@@ -1,0 +1,21 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["partitionKey", "sortKey", "username", "id", "firstName", "lastName", "dependants", "expiration", "salary", "gross", "benefitsCost", "net"],
+    "properties": {
+      "partitionKey": { "type": "string" },
+      "sortKey": { "type": "string" },
+      "username": { "type": "string" },
+      "id": { "type": "string" },
+      "firstName": { "type": "string" },
+      "lastName": { "type": "string" },
+      "dependants": { "type": "integer" },
+      "expiration": { "type": "string", "format": "date-time" },
+      "salary": { "type": "integer" },
+      "gross": { "type": "integer" },
+      "benefitsCost": { "type": "number" },
+      "net": { "type": "number" }
+    }
+  }
+}

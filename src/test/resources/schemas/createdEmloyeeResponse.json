@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "required": ["partitionKey", "sortKey", "username", "id", "firstName", "lastName", "dependants", "salary", "gross", "benefitsCost", "net"],
+  "properties": {
+    "partitionKey": { "type": "string", "enum": ["TestUser732"] },
+    "sortKey": { "type": "string", "pattern": "^[a-f0-9\\-]{36}$" },
+    "username": { "type": "string", "enum": ["TestUser732"] },
+    "id": { "type": "string", "pattern": "^[a-f0-9\\-]{36}$" },
+    "firstName": { "type": "string", "enum": ["TestFirstName"] },
+    "lastName": { "type": "string", "enum": ["TestLastName"] },
+    "dependants": { "type": "integer", "enum": [2] },
+    "salary": { "type": "integer", "enum": [52000] },
+    "gross": { "type": "integer", "enum": [2000] },
+    "benefitsCost": { "type": "number", "enum": [76.92308] },
+    "net": { "type": "number", "enum": [1923.0769] }
+  }
+}

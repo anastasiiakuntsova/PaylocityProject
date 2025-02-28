@@ -1,13 +1,2 @@
 General/ElementsFunctions.class
-Pages/RegistrationPage.class
-Pages/HomePage.class
-Windows/LogInWindow.class
 Helpers/StringHelper.class
-Windows/StoreWindow.class
-Pages/MyAccountPage.class
-Windows/ConfirmPhoneWindow.class
-Pages/ProductCard.class
-Pages/ProductsPage.class
-Pages/ProfilePage.class
-Windows/FinishOrderWindow.class
-Pages/BusketPage.class

@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 
 public class ElementsFunctions {
@@ -23,7 +22,7 @@ public class ElementsFunctions {
     }
 
     public static Boolean isClickable(WebElement element) {
-        return ExpectedConditions.elementToBeClickable(element) == null ? false : true;
+        return ExpectedConditions.elementToBeClickable(element) == null;
 
     }
 
@@ -42,7 +41,6 @@ public class ElementsFunctions {
     public static void waitVisability(WebElement element, WebDriver driver) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(element));
-
     }
 
     public static void waitElementToBeClickable(WebElement element, WebDriver driver) {
