@@ -1,13 +1,13 @@
 
 # Paylocity API & UI Automation Project
 
-## 📌 Project Overview
+## Project Overview
 This project is an **automated testing suite** for Paylocity's API and UI functionalities using **RestAssured, Selenium, and JUnit 5**. 
 It includes test cases for validating API endpoints and web interactions with a structured framework.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 PaylocityProject/
 ├── src/
